@@ -41,6 +41,6 @@
 MEMLOCKLIM=`ulimit -l`
 NOFILESLIM=`ulimit -n`
 STACKLIM=`ulimit -s`
-ulimit -l unlimited
-ulimit -n 16384
-ulimit -s unlimited
+#ulimit -l unlimited
+#ulimit -n 16384
+#ulimit -s unlimited
